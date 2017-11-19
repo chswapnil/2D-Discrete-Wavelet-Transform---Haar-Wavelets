@@ -1,3 +1,8 @@
+/*
+Author:- Swapnil Chaughule
+Email:- chswapnil@gmail.com
+*/
+
 #include<iostream>
 #include<cmath>
 #include"opencv2/highgui/highgui.hpp"
@@ -13,7 +18,7 @@ int main()
 {
 cout.precision(7);
 var2d hdwt;
-Mat A = imread("/home/swapnil/Documents/Images/lena3.jpg");
+Mat A = imread("/home/swapnil/Documents/Images/lena3.jpg");//Image file location
 Mat img;
 cvtColor(A,img,CV_BGR2GRAY);
 imshow("COVER",img);
